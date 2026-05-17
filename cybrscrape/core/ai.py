@@ -4,7 +4,7 @@ from mcp.server.fastmcp import FastMCP
 from pydantic import BaseModel, Field
 
 from cybrscrape.core.shell import Convertor
-from cybrscrape.engines.toolbelt.custom import Response as _ScraplingResponse
+from cybrscrape.engines.toolbelt.custom import Response as _CybrScrapeResponse
 from cybrscrape.engines.static import ImpersonateType
 from cybrscrape.fetchers import (
     Fetcher,
@@ -37,7 +37,7 @@ class ResponseModel(BaseModel):
     url: str = Field(description="The URL given by the user that resulted in this response.")
 
 
-def _content_translator(content: Generator[str, None, None], page: _ScraplingResponse) -> ResponseModel:
+def _content_translator(content: Generator[str, None, None], page: _CybrScrapeResponse) -> ResponseModel:
     """Convert a content generator to a list of ResponseModel objects."""
     return ResponseModel(status=page.status, content=[result for result in content], url=page.url)
 
@@ -56,7 +56,7 @@ def _normalize_credentials(credentials: Optional[Dict[str, str]]) -> Optional[Tu
     return username, password
 
 
-class ScraplingMCPServer:
+class CybrScrapeMCPServer:
     @staticmethod
     def get(
         url: str,
@@ -276,7 +276,7 @@ class ScraplingMCPServer:
         :param wait_selector_state: The state to wait for the selector given with `wait_selector`. The default state is `attached`.
         :param real_chrome: If you have a Chrome browser installed on your device, enable this, and the Fetcher will launch an instance of your browser and use it.
         :param cdp_url: Instead of launching a new browser instance, connect to this CDP URL to control real browsers through CDP.
-        :param google_search: Enabled by default, Scrapling will set a Google referer header.
+        :param google_search: Enabled by default, CybrScrape will set a Google referer header.
         :param extra_headers: A dictionary of extra headers to add to the request. _The referer set by `google_search` takes priority over the referer set here if used together._
         :param proxy: The proxy to be used with requests, it can be a string or a dictionary with the keys 'server', 'username', and 'password' only.
         """
@@ -358,7 +358,7 @@ class ScraplingMCPServer:
         :param wait_selector_state: The state to wait for the selector given with `wait_selector`. The default state is `attached`.
         :param real_chrome: If you have a Chrome browser installed on your device, enable this, and the Fetcher will launch an instance of your browser and use it.
         :param cdp_url: Instead of launching a new browser instance, connect to this CDP URL to control real browsers through CDP.
-        :param google_search: Enabled by default, Scrapling will set a Google referer header.
+        :param google_search: Enabled by default, CybrScrape will set a Google referer header.
         :param extra_headers: A dictionary of extra headers to add to the request. _The referer set by `google_search` takes priority over the referer set here if used together._
         :param proxy: The proxy to be used with requests, it can be a string or a dictionary with the keys 'server', 'username', and 'password' only.
         """
@@ -454,10 +454,10 @@ class ScraplingMCPServer:
         :param hide_canvas: Add random noise to canvas operations to prevent fingerprinting.
         :param block_webrtc: Forces WebRTC to respect proxy settings to prevent local IP address leak.
         :param cdp_url: Instead of launching a new browser instance, connect to this CDP URL to control real browsers through CDP.
-        :param google_search: Enabled by default, Scrapling will set a Google referer header.
+        :param google_search: Enabled by default, CybrScrape will set a Google referer header.
         :param extra_headers: A dictionary of extra headers to add to the request. _The referer set by `google_search` takes priority over the referer set here if used together._
         :param proxy: The proxy to be used with requests, it can be a string or a dictionary with the keys 'server', 'username', and 'password' only.
-        :param additional_args: Additional arguments to be passed to Playwright's context as additional settings, and it takes higher priority than Scrapling's settings.
+        :param additional_args: Additional arguments to be passed to Playwright's context as additional settings, and it takes higher priority than CybrScrape's settings.
         """
         page = await StealthyFetcher.async_fetch(
             url,
@@ -551,10 +551,10 @@ class ScraplingMCPServer:
         :param hide_canvas: Add random noise to canvas operations to prevent fingerprinting.
         :param block_webrtc: Forces WebRTC to respect proxy settings to prevent local IP address leak.
         :param cdp_url: Instead of launching a new browser instance, connect to this CDP URL to control real browsers through CDP.
-        :param google_search: Enabled by default, Scrapling will set a Google referer header.
+        :param google_search: Enabled by default, CybrScrape will set a Google referer header.
         :param extra_headers: A dictionary of extra headers to add to the request. _The referer set by `google_search` takes priority over the referer set here if used together._
         :param proxy: The proxy to be used with requests, it can be a string or a dictionary with the keys 'server', 'username', and 'password' only.
-        :param additional_args: Additional arguments to be passed to Playwright's context as additional settings, and it takes higher priority than Scrapling's settings.
+        :param additional_args: Additional arguments to be passed to Playwright's context as additional settings, and it takes higher priority than CybrScrape's settings.
         """
         async with AsyncStealthySession(
             wait=wait,
@@ -596,7 +596,7 @@ class ScraplingMCPServer:
 
     def serve(self, http: bool, host: str, port: int):
         """Serve the MCP server."""
-        server = FastMCP(name="Scrapling", host=host, port=port)
+        server = FastMCP(name="CybrScrape", host=host, port=port)
         server.add_tool(self.get, title="get", description=self.get.__doc__, structured_output=True)
         server.add_tool(self.bulk_get, title="bulk_get", description=self.bulk_get.__doc__, structured_output=True)
         server.add_tool(self.fetch, title="fetch", description=self.fetch.__doc__, structured_output=True)

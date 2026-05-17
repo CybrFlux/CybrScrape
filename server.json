@@ -1,16 +1,16 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.M4ST3R-C0NTR0L/CybrScrape",
+  "name": "io.github.CybrFlux/CybrScrape",
   "title": "CybrScrape MCP Server",
   "description": "Web scraping with stealth HTTP, real browsers, and Cloudflare bypass. CSS selectors supported.",
   "websiteUrl": "https://cybrscrape.readthedocs.io/en/latest/ai/mcp-server.html",
   "repository": {
-    "url": "https://github.com/M4ST3R-C0NTR0L/CybrScrape",
+    "url": "https://github.com/CybrFlux/CybrScrape",
     "source": "github"
   },
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/M4ST3R-C0NTR0L/CybrScrape/main/docs/assets/logo.png",
+      "src": "https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/docs/assets/logo.png",
       "mimeType": "image/png"
     }
   ],

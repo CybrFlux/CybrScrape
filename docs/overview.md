@@ -294,11 +294,11 @@ The `DynamicFetcher` class (formerly `PlayWrightFetcher`) offers many options fo
 >>> from scrapling.fetchers import DynamicFetcher
 >>> page = DynamicFetcher.fetch('https://www.google.com/search?q=%22Scrapling%22', disable_resources=True)  # Vanilla Playwright option
 >>> page.css("#search a::attr(href)").get()
-'https://github.com/D4Vinci/Scrapling'
+'https://github.com/CybrFlux/CybrScrape'
 >>> # The async version of fetch
 >>> page = await DynamicFetcher.async_fetch('https://www.google.com/search?q=%22Scrapling%22', disable_resources=True)
 >>> page.css("#search a::attr(href)").get()
-'https://github.com/D4Vinci/Scrapling'
+'https://github.com/CybrFlux/CybrScrape'
 ```
 It's built on top of [Playwright](https://playwright.dev/python/), and it's currently providing two main run options that can be mixed as you want:
 

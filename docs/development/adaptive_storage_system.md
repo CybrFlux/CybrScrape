@@ -14,11 +14,11 @@ So first, to make your storage class work, it must do the big 3:
         * The second one is a string, the identifier used for retrieval. The combination result of this identifier and the `url` argument from initialization must be unique for each row, or the `adaptive` data will be messed up.
     - The method `retrieve` takes a string, which is the identifier; using it with the `url` passed on initialization, the element's dictionary is retrieved from the database and returned if it exists; otherwise, it returns `None`.
 
-> If the instructions weren't clear enough for you, you can check my implementation using SQLite3 in [storage_adaptors](https://github.com/D4Vinci/Scrapling/blob/main/scrapling/core/storage.py) file
+> If the instructions weren't clear enough for you, you can check my implementation using SQLite3 in [storage_adaptors](https://github.com/CybrFlux/CybrScrape/blob/main/scrapling/core/storage.py) file
 
 If your class meets these criteria, the rest is straightforward. If you plan to use the library in a threaded application, ensure your class supports it. The default used class is thread-safe.
 
-Some helper functions are added to the abstract class if you want to use them. It's easier to see it for yourself in the [code](https://github.com/D4Vinci/Scrapling/blob/main/scrapling/core/storage.py); it's heavily commented :)
+Some helper functions are added to the abstract class if you want to use them. It's easier to see it for yourself in the [code](https://github.com/CybrFlux/CybrScrape/blob/main/scrapling/core/storage.py); it's heavily commented :)
 
 
 ## Real-World Example: Redis Storage

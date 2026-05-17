@@ -6,7 +6,7 @@ It can be used to answer almost 90% of any questions you would have about CybrSc
 
 ## Installation
 
-You can use this [direct URL](https://github.com/M4ST3R-C0NTR0L/CybrScrape/raw/refs/main/agent-skill/CybrScrape-Skill.zip) to download the ZIP file of the skill directly.
+You can use this [direct URL](https://github.com/CybrFlux/CybrScrape/raw/refs/main/agent-skill/CybrScrape-Skill.zip) to download the ZIP file of the skill directly.
 
 ### Clawhub
 If you are an [OpenClaw](https://github.com/openclaw/openclaw) and [Claude Code](https://claude.com/product/claude-code) user, you can install the skill using [Clawhub](https://docs.openclaw.ai/tools/clawhub) directly:
@@ -14,4 +14,4 @@ If you are an [OpenClaw](https://github.com/openclaw/openclaw) and [Claude Code]
 clawhub install cybrscrape-official
 ```
 
-Or go to the [Clawhub](https://docs.openclaw.ai/tools/clawhub) page from [here](https://clawhub.ai/M4ST3R-C0NTR0L/cybrscrape-official).
+Or go to the [Clawhub](https://docs.openclaw.ai/tools/clawhub) page from [here](https://clawhub.ai/CybrFlux/cybrscrape-official).

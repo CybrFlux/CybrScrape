@@ -8,15 +8,15 @@ Minor changes are more likely to be included promptly. Adding unit tests for new
 
 There are many ways to contribute to Scrapling. Here are some of them:
 
-- Report bugs and request features using the [GitHub issues](https://github.com/D4Vinci/Scrapling/issues). Please follow the issue template to help us resolve your issue quickly.
+- Report bugs and request features using the [GitHub issues](https://github.com/CybrFlux/CybrScrape/issues). Please follow the issue template to help us resolve your issue quickly.
 - Blog about Scrapling. Tell the world how you’re using Scrapling. This will help newcomers with more examples and increase the Scrapling project's visibility.
 - Join the [Discord community](https://discord.gg/EMgGbDceNQ) and share your ideas on how to improve Scrapling. We’re always open to suggestions.
-- If you are not a developer, perhaps you would like to help with translating the [documentation](https://github.com/D4Vinci/Scrapling/tree/docs)?
+- If you are not a developer, perhaps you would like to help with translating the [documentation](https://github.com/CybrFlux/CybrScrape/tree/docs)?
 
 ## Making a Pull Request
 To ensure that your PR gets accepted, please make sure that your PR is based on the latest changes from the dev branch and that it satisfies the following requirements:
 
-- **The PR must be made against the [**dev**](https://github.com/D4Vinci/Scrapling/tree/dev) branch of Scrapling. Any PR made against the main branch will be rejected.**
+- **The PR must be made against the [**dev**](https://github.com/CybrFlux/CybrScrape/tree/dev) branch of Scrapling. Any PR made against the main branch will be rejected.**
 - **The code should be passing all available tests. We use tox with GitHub's CI to run the current tests on all supported Python versions for every code-related commit.**
 - **The code should be passing all code quality checks like `mypy` and `pyright`. We are using GitHub's CI to enforce code style checks as well.**
 - **Make your changes, keep the code clean with an explanation of any part that might be vague, and remember to create a separate virtual environment for this project.**
@@ -29,8 +29,8 @@ To ensure that your PR gets accepted, please make sure that your PR is based on 
 
 If you have decided to make a contribution to Scrapling, but you do not know what to contribute, here are some ways to find pending work:
 
-- Check out the [contribution](https://github.com/D4Vinci/Scrapling/contribute) GitHub page, which lists open issues tagged as `good first issue`. These issues provide a good starting point.
-- There are also the [help wanted](https://github.com/D4Vinci/Scrapling/issues?q=is%3Aissue%20label%3A%22help%20wanted%22%20state%3Aopen) issues, but know that some may require familiarity with the Scrapling code base first. You can also target any other issue, provided it is not tagged as `invalid`, `wontfix`, or similar tags.
+- Check out the [contribution](https://github.com/CybrFlux/CybrScrape/contribute) GitHub page, which lists open issues tagged as `good first issue`. These issues provide a good starting point.
+- There are also the [help wanted](https://github.com/CybrFlux/CybrScrape/issues?q=is%3Aissue%20label%3A%22help%20wanted%22%20state%3Aopen) issues, but know that some may require familiarity with the Scrapling code base first. You can also target any other issue, provided it is not tagged as `invalid`, `wontfix`, or similar tags.
 - If you enjoy writing automated tests, you can work on increasing our test coverage. Currently, the test coverage is around 90–92%.
 - Join the [Discord community](https://discord.gg/EMgGbDceNQ) and ask questions in the `#help` channel.
 
@@ -101,7 +101,7 @@ logging.getLogger("scrapling").setLevel(logging.DEBUG)
 ```
 Bonus: You can install the beta of the upcoming update from the dev branch as follows
 ```commandline
-pip3 install git+https://github.com/D4Vinci/Scrapling.git@dev
+pip3 install git+https://github.com/CybrFlux/CybrScrape.git@dev
 ```
 
 ## Tests

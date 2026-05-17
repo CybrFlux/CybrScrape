@@ -10,10 +10,10 @@ description = "Adaptive Web Scraping Framework by Cybrflux"
 readme = {file = "README.md", content-type = "text/markdown"}
 license = {file = "LICENSE"}
 authors = [
-    {name = "Cybrflux"}
+    {name = "CybrFlux", email = "platform@cybrflux.online"}
 ]
 maintainers = [
-    {name = "Cybrflux"}
+    {name = "CybrFlux", email = "platform@cybrflux.online"}
 ]
 keywords = [
     "web-scraping",
@@ -95,12 +95,13 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/M4ST3R-C0NTR0L/CybrScrape"
-Changelog = "https://github.com/M4ST3R-C0NTR0L/CybrScrape/releases"
+Homepage = "https://cybrflux.com"
+Changelog = "https://github.com/CybrFlux/CybrScrape/releases"
 Documentation = "https://cybrscrape.readthedocs.io/en/latest/"
-Repository = "https://github.com/M4ST3R-C0NTR0L/CybrScrape"
-"Bug Tracker" = "https://github.com/M4ST3R-C0NTR0L/CybrScrape/issues"
-"Release Notes" = "https://github.com/M4ST3R-C0NTR0L/CybrScrape/releases"
+Repository = "https://github.com/CybrFlux/CybrScrape"
+Issues = "https://github.com/CybrFlux/CybrScrape/issues"
+"Bug Tracker" = "https://github.com/CybrFlux/CybrScrape/issues"
+"Release Notes" = "https://github.com/CybrFlux/CybrScrape/releases"
 
 [project.scripts]
 cybrscrape = "cybrscrape.cli:main"

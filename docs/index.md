@@ -57,28 +57,28 @@ MySpider().start()
 <!-- sponsors -->
 <div style="text-align: center;">
   <a href="https://hypersolutions.co/?utm_source=github&utm_medium=readme&utm_campaign=scrapling" target="_blank" title="Bot Protection Bypass API for Akamai, DataDome, Incapsula & Kasada">
-    <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/HyperSolutions.png" class="ad">
+    <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/HyperSolutions.png" class="ad">
   </a>
   <a href="https://birdproxies.com/t/scrapling" target="_blank" title="At Bird Proxies, we eliminate your pains such as banned IPs, geo restriction, and high costs so you can focus on your work.">
-    <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/BirdProxies.jpg" class="ad">
+    <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/BirdProxies.jpg" class="ad">
   </a>
   <a href="https://evomi.com?utm_source=github&utm_medium=banner&utm_campaign=d4vinci-scrapling" target="_blank" title="Evomi is your Swiss Quality Proxy Provider, starting at $0.49/GB">
-    <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/evomi.png" class="ad">
+    <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/evomi.png" class="ad">
   </a>
   <a href="https://tikhub.io/?ref=KarimShoair" target="_blank" title="Unlock the Power of Social Media Data & AI">
-    <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/TikHub.jpg" class="ad">
+    <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/TikHub.jpg" class="ad">
   </a>
   <a href="https://www.nsocks.com/?keyword=2p67aivg" target="_blank" title="Scalable Web Data Access for AI Applications">
-    <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/nsocks.png" class="ad">
+    <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/nsocks.png" class="ad">
   </a>
   <a href="https://petrosky.io/d4vinci" target="_blank" title="PetroSky delivers cutting-edge VPS hosting.">
-    <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/petrosky.png" class="ad">
+    <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/petrosky.png" class="ad">
   </a>
   <a href="https://substack.thewebscraping.club/p/scrapling-hands-on-guide?utm_source=github&utm_medium=repo&utm_campaign=scrapling" target="_blank" title="The #1 newsletter dedicated to Web Scraping">
-    <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/TWSC.png" class="ad">
+    <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/TWSC.png" class="ad">
   </a>
   <a href="https://proxy-seller.com/?partner=CU9CAA5TBYFFT2" target="_blank" title="Proxy-Seller provides reliable proxy infrastructure for Web Scraping">
-    <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/ProxySeller.png" class="ad">
+    <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/ProxySeller.png" class="ad">
   </a>
   <br />
   <br />
@@ -134,8 +134,8 @@ MySpider().start()
 Scrapling’s GitHub stars have grown steadily since its release (see chart below).
 
 <div id="chartContainer">
-  <a href="https://github.com/D4Vinci/Scrapling">
-    <img id="chartImage" alt="Star History Chart" loading="lazy" src="https://api.star-history.com/svg?repos=D4Vinci/Scrapling&type=Date" height="400"/>
+  <a href="https://github.com/CybrFlux/CybrScrape">
+    <img id="chartImage" alt="Star History Chart" loading="lazy" src="https://api.star-history.com/svg?repos=CybrFlux/CybrScrape&type=Date" height="400"/>
   </a>
 </div>
 
@@ -146,7 +146,7 @@ const observer = new MutationObserver((mutations) => {
       const colorMedia = document.body.getAttribute('data-md-color-media');
       const isDarkScheme = document.body.getAttribute('data-md-color-scheme') === 'slate';
       const chartImg = document.querySelector('#chartImage');
-      const baseUrl = 'https://api.star-history.com/svg?repos=D4Vinci/Scrapling&type=Date';
+      const baseUrl = 'https://api.star-history.com/svg?repos=CybrFlux/CybrScrape&type=Date';
       
       if (colorMedia === '(prefers-color-scheme)' ? isDarkScheme : colorMedia.includes('dark')) {
         chartImg.src = `${baseUrl}&theme=dark`;
@@ -228,11 +228,11 @@ Scrapling has extensive documentation, so we try to follow the [Diátaxis docume
 
 If you like Scrapling and want to support its development:
 
-- ⭐ Star the [GitHub repository](https://github.com/D4Vinci/Scrapling)
+- ⭐ Star the [GitHub repository](https://github.com/CybrFlux/CybrScrape)
 - 🚀 Follow us on [Twitter](https://x.com/Scrapling_dev) and join the [discord server](https://discord.gg/EMgGbDceNQ)
 - 💝 Consider [sponsoring the project or buying me a coffee](donate.md) :wink:
-- 🐛 Report bugs and suggest features through [GitHub Issues](https://github.com/D4Vinci/Scrapling/issues)
+- 🐛 Report bugs and suggest features through [GitHub Issues](https://github.com/CybrFlux/CybrScrape/issues)
 
 ## License
 
-This project is licensed under the BSD-3 License. See the [LICENSE](https://github.com/D4Vinci/Scrapling/blob/main/LICENSE) file for details.
+This project is licensed under the BSD-3 License. See the [LICENSE](https://github.com/CybrFlux/CybrScrape/blob/main/LICENSE) file for details.

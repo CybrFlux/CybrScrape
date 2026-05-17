@@ -240,6 +240,6 @@ If you need help other than what is available in-terminal, you can:
 
 - [Scrapling Documentation](https://scrapling.readthedocs.io/)
 - [Discord Community](https://discord.gg/EMgGbDceNQ)
-- [GitHub Issues](https://github.com/D4Vinci/Scrapling/issues)  
+- [GitHub Issues](https://github.com/CybrFlux/CybrScrape/issues)  
 
 And that's it! Happy scraping! The shell makes web scraping as easy as a conversation.

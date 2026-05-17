@@ -1,7 +1,7 @@
 import pytest
 import pytest_httpbin
 
-from cybrscrape.core.ai import ScraplingMCPServer, ResponseModel
+from cybrscrape.core.ai import CybrScrapeMCPServer, ResponseModel
 
 
 @pytest_httpbin.use_class_based_httpbin
@@ -14,7 +14,7 @@ class TestMCPServer:
 
     @pytest.fixture
     def server(self):
-        return ScraplingMCPServer()
+        return CybrScrapeMCPServer()
 
     def test_get_tool(self, server, test_url):
         """Test the get tool method"""

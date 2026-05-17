@@ -25,4 +25,4 @@ Scrapling's adaptive element finding capabilities significantly outperform alter
 | Scrapling   |   2.39    |     1.0x     |
 | AutoScraper |   12.45   |    5.209x    |
 
-> All benchmarks represent averages of 100+ runs. See [benchmarks.py](https://github.com/D4Vinci/Scrapling/blob/main/benchmarks.py) for methodology.
+> All benchmarks represent averages of 100+ runs. See [benchmarks.py](https://github.com/CybrFlux/CybrScrape/blob/main/benchmarks.py) for methodology.

@@ -1,10 +1,10 @@
-<!-- mcp-name: io.github.D4Vinci/Scrapling -->
+<!-- mcp-name: io.github.CybrFlux/CybrScrape -->
 
 <h1 align="center">
     <a href="https://scrapling.readthedocs.io">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/docs/assets/cover_dark.svg?sanitize=true">
-          <img alt="Scrapling Poster" src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/docs/assets/cover_light.svg?sanitize=true">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/docs/assets/cover_dark.svg?sanitize=true">
+          <img alt="Scrapling Poster" src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/docs/assets/cover_light.svg?sanitize=true">
         </picture>
     </a>
     <br>
@@ -12,12 +12,12 @@
 </h1>
 
 <p align="center">
-    <a href="https://github.com/D4Vinci/Scrapling/actions/workflows/tests.yml" alt="Tests">
-        <img alt="Tests" src="https://github.com/D4Vinci/Scrapling/actions/workflows/tests.yml/badge.svg"></a>
+    <a href="https://github.com/CybrFlux/CybrScrape/actions/workflows/tests.yml" alt="Tests">
+        <img alt="Tests" src="https://github.com/CybrFlux/CybrScrape/actions/workflows/tests.yml/badge.svg"></a>
     <a href="https://badge.fury.io/py/Scrapling" alt="PyPI version">
         <img alt="PyPI version" src="https://badge.fury.io/py/Scrapling.svg"></a>
     <a href="https://clickpy.clickhouse.com/dashboard/scrapling" rel="nofollow"><img src="https://img.shields.io/pypi/dm/scrapling" alt="PyPI package downloads"></a>
-    <a href="https://github.com/D4Vinci/Scrapling/tree/main/agent-skill" alt="AI Agent Skill directory">
+    <a href="https://github.com/CybrFlux/CybrScrape/tree/main/agent-skill" alt="AI Agent Skill directory">
         <img alt="Static Badge" src="https://img.shields.io/badge/Skill-black?style=flat&label=Agent&link=https%3A%2F%2Fgithub.com%2FD4Vinci%2FScrapling%2Ftree%2Fmain%2Fagent-skill"></a>
     <a href="https://clawhub.ai/D4Vinci/scrapling-official" alt="OpenClaw Skill">
         <img alt="OpenClaw Skill" src="https://img.shields.io/badge/Clawhub-darkred?style=flat&label=OpenClaw&link=https%3A%2F%2Fclawhub.ai%2FD4Vinci%2Fscrapling-official"></a>
@@ -77,7 +77,7 @@ MySpider().start()
 
 <p align="center">
     <a href="https://dataimpulse.com/?utm_source=scrapling&utm_medium=banner&utm_campaign=scrapling" target="_blank" style="display:flex; justify-content:center; padding:4px 0;">
-        <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/DataImpulse.png" alt="At DataImpulse, we specialize in developing custom proxy services for your business. Make requests from anywhere, collect data, and enjoy fast connections with our premium proxies." style="max-height:60px;">
+        <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/DataImpulse.png" alt="At DataImpulse, we specialize in developing custom proxy services for your business. Make requests from anywhere, collect data, and enjoy fast connections with our premium proxies." style="max-height:60px;">
     </a>
 </p>
 
@@ -86,7 +86,7 @@ MySpider().start()
   <tr>
     <td width="200">
       <a href="https://hypersolutions.co/?utm_source=github&utm_medium=readme&utm_campaign=scrapling" target="_blank" title="Bot Protection Bypass API for Akamai, DataDome, Incapsula & Kasada">
-        <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/HyperSolutions.png">
+        <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/HyperSolutions.png">
       </a>
     </td>
     <td> Scrapling gère Cloudflare Turnstile. Pour une protection de niveau entreprise, <a href="https://hypersolutions.co?utm_source=github&utm_medium=readme&utm_campaign=scrapling">
@@ -96,7 +96,7 @@ MySpider().start()
   <tr>
     <td width="200">
       <a href="https://birdproxies.com/t/scrapling" target="_blank" title="At Bird Proxies, we eliminate your pains such as banned IPs, geo restriction, and high costs so you can focus on your work.">
-        <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/BirdProxies.jpg">
+        <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/BirdProxies.jpg">
       </a>
     </td>
     <td>Nous avons créé <a href="https://birdproxies.com/t/scrapling">
@@ -108,7 +108,7 @@ MySpider().start()
   <tr>
     <td width="200">
       <a href="https://evomi.com?utm_source=github&utm_medium=banner&utm_campaign=d4vinci-scrapling" target="_blank" title="Evomi is your Swiss Quality Proxy Provider, starting at $0.49/GB">
-        <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/evomi.png">
+        <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/evomi.png">
       </a>
     </td>
     <td>
@@ -121,7 +121,7 @@ MySpider().start()
   <tr>
     <td width="200">
       <a href="https://tikhub.io/?ref=KarimShoair" target="_blank" title="Unlock the Power of Social Media Data & AI">
-        <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/TikHub.jpg">
+        <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/TikHub.jpg">
       </a>
     </td>
     <td>
@@ -131,7 +131,7 @@ MySpider().start()
   <tr>
     <td width="200">
       <a href="https://www.nsocks.com/?keyword=2p67aivg" target="_blank" title="Scalable Web Data Access for AI Applications">
-        <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/nsocks.png">
+        <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/nsocks.png">
       </a>
     </td>
     <td>
@@ -141,7 +141,7 @@ MySpider().start()
   <tr>
     <td width="200">
       <a href="https://petrosky.io/d4vinci" target="_blank" title="PetroSky delivers cutting-edge VPS hosting.">
-        <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/petrosky.png">
+        <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/petrosky.png">
       </a>
     </td>
     <td>
@@ -152,7 +152,7 @@ MySpider().start()
   <tr>
     <td width="200">
       <a href="https://substack.thewebscraping.club/p/scrapling-hands-on-guide?utm_source=github&utm_medium=repo&utm_campaign=scrapling" target="_blank" title="The #1 newsletter dedicated to Web Scraping">
-        <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/TWSC.png">
+        <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/TWSC.png">
       </a>
     </td>
     <td>
@@ -162,7 +162,7 @@ MySpider().start()
   <tr>
     <td width="200">
       <a href="https://proxy-seller.com/?partner=CU9CAA5TBYFFT2" target="_blank" title="Proxy-Seller provides reliable proxy infrastructure for Web Scraping">
-        <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/ProxySeller.png">
+        <img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/ProxySeller.png">
       </a>
     </td>
     <td>
@@ -176,12 +176,12 @@ MySpider().start()
 
 <!-- sponsors -->
 
-<a href="https://serpapi.com/?utm_source=scrapling" target="_blank" title="Scrape Google and other search engines with SerpApi"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/SerpApi.png"></a>
-<a href="https://visit.decodo.com/Dy6W0b" target="_blank" title="Try the Most Efficient Residential Proxies for Free"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/decodo.png"></a>
-<a href="https://hasdata.com/?utm_source=github&utm_medium=banner&utm_campaign=D4Vinci" target="_blank" title="The web scraping service that actually beats anti-bot systems!"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/hasdata.png"></a>
-<a href="https://proxyempire.io/?ref=scrapling&utm_source=scrapling" target="_blank" title="Collect The Data Your Project Needs with the Best Residential Proxies"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/ProxyEmpire.png"></a><a href="https://www.swiftproxy.net/" target="_blank" title="Unlock Reliable Proxy Services with Swiftproxy!"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/swiftproxy.png"></a>
-<a href="https://www.rapidproxy.io/?ref=d4v" target="_blank" title="Affordable Access to the Proxy World – bypass CAPTCHAs blocks, and avoid additional costs."><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/rapidproxy.jpg"></a>
-<a href="https://browser.cash/?utm_source=D4Vinci&utm_medium=referral" target="_blank" title="Browser Automation & AI Browser Agent Platform"><img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/browserCash.png"></a>
+<a href="https://serpapi.com/?utm_source=scrapling" target="_blank" title="Scrape Google and other search engines with SerpApi"><img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/SerpApi.png"></a>
+<a href="https://visit.decodo.com/Dy6W0b" target="_blank" title="Try the Most Efficient Residential Proxies for Free"><img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/decodo.png"></a>
+<a href="https://hasdata.com/?utm_source=github&utm_medium=banner&utm_campaign=D4Vinci" target="_blank" title="The web scraping service that actually beats anti-bot systems!"><img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/hasdata.png"></a>
+<a href="https://proxyempire.io/?ref=scrapling&utm_source=scrapling" target="_blank" title="Collect The Data Your Project Needs with the Best Residential Proxies"><img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/ProxyEmpire.png"></a><a href="https://www.swiftproxy.net/" target="_blank" title="Unlock Reliable Proxy Services with Swiftproxy!"><img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/swiftproxy.png"></a>
+<a href="https://www.rapidproxy.io/?ref=d4v" target="_blank" title="Affordable Access to the Proxy World – bypass CAPTCHAs blocks, and avoid additional costs."><img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/rapidproxy.jpg"></a>
+<a href="https://browser.cash/?utm_source=D4Vinci&utm_medium=referral" target="_blank" title="Browser Automation & AI Browser Agent Platform"><img src="https://raw.githubusercontent.com/CybrFlux/CybrScrape/main/images/browserCash.png"></a>
 
 <!-- /sponsors -->
 
@@ -434,7 +434,7 @@ Les capacités adaptatives de recherche d'éléments de Scrapling surpassent sig
 | AutoScraper  |   12.45    |    5.209x    |
 
 
-> Tous les benchmarks représentent des moyennes de plus de 100 exécutions. Voir [benchmarks.py](https://github.com/D4Vinci/Scrapling/blob/main/benchmarks.py) pour la méthodologie.
+> Tous les benchmarks représentent des moyennes de plus de 100 exécutions. Voir [benchmarks.py](https://github.com/CybrFlux/CybrScrape/blob/main/benchmarks.py) pour la méthodologie.
 
 ## Installation
 
@@ -494,7 +494,7 @@ Cette image est automatiquement construite et publiée en utilisant GitHub Actio
 
 ## Contribuer
 
-Les contributions sont les bienvenues ! Veuillez lire nos [directives de contribution](https://github.com/D4Vinci/Scrapling/blob/main/CONTRIBUTING.md) avant de commencer.
+Les contributions sont les bienvenues ! Veuillez lire nos [directives de contribution](https://github.com/CybrFlux/CybrScrape/blob/main/CONTRIBUTING.md) avant de commencer.
 
 ## Avertissement
 
@@ -508,7 +508,7 @@ Si vous avez utilisé notre bibliothèque à des fins de recherche, veuillez nou
     author = {Karim Shoair},
     title = {Scrapling},
     year = {2024},
-    url = {https://github.com/D4Vinci/Scrapling},
+    url = {https://github.com/CybrFlux/CybrScrape},
     note = {An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!}
   }
 ```
@@ -520,7 +520,7 @@ Ce travail est sous licence BSD-3-Clause.
 ## Remerciements
 
 Ce projet inclut du code adapté de :
-- Parsel (Licence BSD) — Utilisé pour le sous-module [translator](https://github.com/D4Vinci/Scrapling/blob/main/scrapling/core/translator.py)
+- Parsel (Licence BSD) — Utilisé pour le sous-module [translator](https://github.com/CybrFlux/CybrScrape/blob/main/scrapling/core/translator.py)
 
 ---
 <div align="center"><small>Conçu et développé avec ❤️ par Karim Shoair.</small></div><br>

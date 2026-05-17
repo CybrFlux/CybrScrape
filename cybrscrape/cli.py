@@ -102,7 +102,7 @@ def __BuildRequest(headers: List[str], cookies: str, params: str, json: Optional
     return {**request_kwargs, **kwargs}
 
 
-@command(help="Install all Scrapling's Fetchers dependencies")
+@command(help="Install all CybrScrape's Fetchers dependencies")
 @option(
     "-f",
     "--force",
@@ -110,7 +110,7 @@ def __BuildRequest(headers: List[str], cookies: str, params: str, json: Optional
     is_flag=True,
     default=False,
     type=bool,
-    help="Force Scrapling to reinstall all Fetchers dependencies",
+    help="Force CybrScrape to reinstall all Fetchers dependencies",
 )
 def install(force):  # pragma: no cover
     if force or not __PACKAGE_DIR__.joinpath(".cybrscrape_dependencies_installed").exists():
@@ -137,7 +137,7 @@ def install(force):  # pragma: no cover
         print("The dependencies are already installed")
 
 
-@command(help="Run Scrapling's MCP server (Check the docs for more info).")
+@command(help="Run CybrScrape's MCP server (Check the docs for more info).")
 @option(
     "--http",
     is_flag=True,
@@ -154,9 +154,9 @@ def install(force):  # pragma: no cover
     "--port", type=int, default=8000, help="The port to use if streamable-http transport is enabled (Default: 8000)"
 )
 def mcp(http, host, port):
-    from cybrscrape.core.ai import ScraplingMCPServer
+    from cybrscrape.core.ai import CybrScrapeMCPServer
 
-    server = ScraplingMCPServer()
+    server = CybrScrapeMCPServer()
     server.serve(http, host, port)
 
 
@@ -814,8 +814,12 @@ def stealthy_fetch(
     __Request_and_Save(StealthyFetcher.fetch, url, output_file, css_selector, **kwargs)
 
 
-@group()
+@group(epilog="Made by CybrFlux · https://cybrflux.com")
 def main():
+    """CybrScrape — Adaptive Web Scraping Framework.
+
+    Made by CybrFlux · https://cybrflux.com
+    """
     pass
 
 

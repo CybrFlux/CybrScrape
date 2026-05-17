@@ -76,9 +76,9 @@ class NoExitArgumentParser(ArgumentParser):  # pragma: no cover
 
     def exit(self, status=0, message=None):
         if message:
-            log.error(f"Scrapling shell exited with status {status}: {message}")
+            log.error(f"CybrScrape shell exited with status {status}: {message}")
             self._print_message(message, stderr)
-        raise ValueError(f"Scrapling shell exited with status {status}: {message or 'Unknown reason'}")
+        raise ValueError(f"CybrScrape shell exited with status {status}: {message or 'Unknown reason'}")
 
 
 class CurlParser:
@@ -280,7 +280,7 @@ class CurlParser:
             headers=headers,
             cookies=cookies,
             proxy=proxies,
-            follow_redirects=True,  # Scrapling default is True
+            follow_redirects=True,  # CybrScrape default is True
         )
 
     def convert2fetcher(self, curl_command: Request | str) -> Optional[Response]:
@@ -308,7 +308,7 @@ class CurlParser:
                     log.error(f"Error calling Fetcher.{method}: {e}")
                     return None
             else:  # pragma: no cover
-                log.error(f'Request method "{method}" isn\'t supported by Scrapling yet')
+                log.error(f'Request method "{method}" isn\'t supported by CybrScrape yet')
                 return None
 
         else:  # pragma: no cover
@@ -420,7 +420,7 @@ class CustomShell:
         settings = self.__Fetcher.display_config()
         settings.pop("storage", None)
         settings.pop("storage_args", None)
-        log.info(f"Scrapling {__version__} shell started")
+        log.info(f"CybrScrape {__version__} shell started")
         log.info(f"Logging level is set to '{getLevelName(self.log_level)}'")
         log.info(f"Fetchers' parsing settings: {settings}")
 
@@ -428,7 +428,7 @@ class CustomShell:
     def banner():
         """Create a custom banner for the shell"""
         return f"""
--> Available Scrapling objects:
+-> Available CybrScrape objects:
    - Fetcher/AsyncFetcher/FetcherSession
    - DynamicFetcher/DynamicSession/AsyncDynamicSession
    - StealthyFetcher/StealthySession/AsyncStealthySession

@@ -44,7 +44,7 @@ class TestCLI:
 
     def test_mcp_command(self, runner):
         """Test MCP command"""
-        with patch('cybrscrape.core.ai.ScraplingMCPServer') as mock_server:
+        with patch('cybrscrape.core.ai.CybrScrapeMCPServer') as mock_server:
             mock_instance = MagicMock()
             mock_server.return_value = mock_instance
 

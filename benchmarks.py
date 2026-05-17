@@ -12,7 +12,7 @@ from parsel import Selector
 from pyquery import PyQuery as pq
 from selectolax.parser import HTMLParser
 
-from cybrscrape import Selector as ScraplingSelector
+from cybrscrape import Selector as CybrScrapeSelector
 
 large_html = (
     "<html><body>" + '<div class="item">' * 5000 + "</div>" * 5000 + "</body></html>"
@@ -49,7 +49,7 @@ def test_lxml():
         e.text
         for e in etree.fromstring(
             large_html,
-            # Scrapling and Parsel use the same parser inside, so this is just to make it fair
+            # CybrScrape and Parsel use the same parser inside, so this is just to make it fair
             parser=html.HTMLParser(recover=True, huge_tree=True),
         ).cssselect(".item")
     ]
@@ -75,7 +75,7 @@ def test_cybrscrape():
     # No need to do `.extract()` like parsel to extract text
     # Also, this is faster than `[t.text for t in Selector(large_html, adaptive=False).css('.item')]`
     # for obvious reasons, of course.
-    return ScraplingSelector(large_html, adaptive=False).css(".item::text").getall()
+    return CybrScrapeSelector(large_html, adaptive=False).css(".item::text").getall()
 
 
 @benchmark
@@ -100,7 +100,7 @@ def display(results):
     sorted_results = sorted(results.items(), key=lambda x: x[1])  # Sort by time
     cybrscrape_time = results["CybrScrape"]
     print("\nRanked Results (fastest to slowest):")
-    print(f" i. {'Library tested':<18} | {'avg. time (ms)':<15} | vs Scrapling")
+    print(f" i. {'Library tested':<18} | {'avg. time (ms)':<15} | vs CybrScrape")
     print("-" * 50)
     for i, (test_name, test_time) in enumerate(sorted_results, 1):
         compare = round(test_time / cybrscrape_time, 3)
@@ -109,7 +109,7 @@ def display(results):
 
 @benchmark
 def test_cybrscrape_text(request_html):
-    return ScraplingSelector(request_html, adaptive=False).find_by_text("Tipping the Velvet", first_match=True, clean_match=False).find_similar(ignore_attributes=["title"])
+    return CybrScrapeSelector(request_html, adaptive=False).find_by_text("Tipping the Velvet", first_match=True, clean_match=False).find_similar(ignore_attributes=["title"])
 
 
 @benchmark

@@ -1,6 +1,6 @@
 FROM python:3.12-slim-trixie
 
-LABEL io.modelcontextprotocol.server.name="io.github.M4ST3R-C0NTR0L/CybrScrape"
+LABEL io.modelcontextprotocol.server.name="io.github.CybrFlux/CybrScrape"
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 # Set environment variables

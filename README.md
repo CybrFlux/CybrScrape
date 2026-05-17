@@ -1,19 +1,28 @@
-<!-- mcp-name: io.github.M4ST3R-C0NTR0L/CybrScrape -->
+<!-- mcp-name: io.github.CybrFlux/CybrScrape -->
+<!-- CYBRFLUX_README_HEADER_START -->
+<div align="center">
 
-<h1 align="center">CybrScrape</h1>
-<p align="center"><strong>A Cybrflux tool</strong></p>
-<p align="center"><em>Adaptive Web Scraping Framework — from single requests to full-scale crawls</em></p>
+<img src="./assets/banner.png" alt="CybrScrape banner" width="100%"/>
 
-<p align="center">
-    <a href="https://github.com/M4ST3R-C0NTR0L/CybrScrape/actions/workflows/tests.yml" alt="Tests">
-        <img alt="Tests" src="https://github.com/M4ST3R-C0NTR0L/CybrScrape/actions/workflows/tests.yml/badge.svg"></a>
-    <a href="https://badge.fury.io/py/cybrscrape" alt="PyPI version">
-        <img alt="PyPI version" src="https://badge.fury.io/py/cybrscrape.svg"></a>
-    <a href="https://pypi.org/project/cybrscrape/" alt="Supported Python versions">
-        <img alt="Supported Python versions" src="https://img.shields.io/pypi/pyversions/cybrscrape.svg"></a>
+<br/>
+
+# CybrScrape
+
+**Adaptive Web Scraping Framework — from single requests to full-scale crawls**
+
+<sub>A **[CybrFlux](https://cybrflux.com)** open-source project — built by an AI-native engineering studio.</sub>
+
+<br/>
+
+<a href="https://cybrflux.com"><img src="./assets/cybrflux-logo.png" alt="CybrFlux" height="48"/></a>
+
+<p>
+    <a href="https://github.com/CybrFlux/CybrScrape/actions/workflows/tests.yml" alt="Tests"><img alt="Tests" src="https://github.com/CybrFlux/CybrScrape/actions/workflows/tests.yml/badge.svg"></a>
+    <a href="https://badge.fury.io/py/cybrscrape" alt="PyPI version"><img alt="PyPI version" src="https://badge.fury.io/py/cybrscrape.svg"></a>
+    <a href="https://pypi.org/project/cybrscrape/" alt="Supported Python versions"><img alt="Supported Python versions" src="https://img.shields.io/pypi/pyversions/cybrscrape.svg"></a>
 </p>
 
-<p align="center">
+<p>
     <a href="https://cybrscrape.readthedocs.io/en/latest/parsing/selection.html"><strong>Selection methods</strong></a>
     &middot;
     <a href="https://cybrscrape.readthedocs.io/en/latest/fetching/choosing.html"><strong>Fetchers</strong></a>
@@ -26,6 +35,11 @@
     &middot;
     <a href="https://cybrscrape.readthedocs.io/en/latest/ai/mcp-server.html"><strong>MCP</strong></a>
 </p>
+
+</div>
+
+---
+<!-- CYBRFLUX_README_HEADER_END -->
 
 CybrScrape is an adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl.
 
@@ -360,7 +374,7 @@ This image is automatically built and pushed using GitHub Actions and the reposi
 
 ## Contributing
 
-We welcome contributions! Please read our [contributing guidelines](https://github.com/M4ST3R-C0NTR0L/CybrScrape/blob/main/CONTRIBUTING.md) before getting started.
+We welcome contributions! Please read our [contributing guidelines](https://github.com/CybrFlux/CybrScrape/blob/main/CONTRIBUTING.md) before getting started.
 
 ---
 
@@ -378,3 +392,38 @@ This work is licensed under the BSD-3-Clause License.
 ---
 
 <div align="center"><small>A <a href="https://cybrflux.ai">Cybrflux</a> tool — Built with ❤️ for the scraping community.</small></div>
+
+
+<!-- CYBRFLUX_README_FOOTER_START -->
+---
+
+## More from CybrFlux
+
+The full open-source family — drop-in tools for AI-native engineering, marketing, and ops:
+
+| Product | What it does |
+|---|---|
+| **[CybrGhost](https://github.com/CybrFlux/CybrGhost)** | Stealth browser MCP for AI agents — drives real Firefox, passes Cloudflare |
+| **[CybrScrape](https://github.com/CybrFlux/CybrScrape)** | Adaptive web scraping framework — self-healing selectors, anti-bot bypass |
+| **[CybrScan](https://github.com/CybrFlux/CybrScan)** | AI website inspector — Playwright + vision model, deep design/SEO/UX analysis |
+| **[CybrRoast](https://github.com/CybrFlux/CybrRoast)** | Brutal website SEO/perf/design roaster with technical scores |
+| **[CybrLint](https://github.com/CybrFlux/CybrLint)** | Code-quality roaster that tells it like it is |
+| **[CybrCommit](https://github.com/CybrFlux/CybrCommit)** | AI git commit message generator — never write a commit message again |
+| **[CybrOutreach](https://github.com/CybrFlux/CybrOutreach)** | AI-powered personalized cold email generator |
+| **[CybrVox](https://github.com/CybrFlux/CybrVox)** | Open-source voice agent framework — build voice agents in ~20 lines of TypeScript |
+| **[CybrKit](https://github.com/CybrFlux/CybrKit)** | Ship your SaaS in days, not months. Production-ready Next.js starter |
+| **[CybrLink](https://github.com/CybrFlux/CybrLink)** | Composio-style connector engine — data-driven integration manifests |
+| **[CybrCode](https://github.com/CybrFlux/CybrCode)** | AI-powered terminal development tool — fork of Claude Code |
+
+## License
+
+MIT — see [LICENSE](./LICENSE).
+
+## Maintained by CybrFlux
+
+Built and maintained by **[CybrFlux](https://cybrflux.com)** — an AI-native engineering studio shipping production-grade open-source tools.
+
+Questions: [`platform@cybrflux.online`](mailto:platform@cybrflux.online)
+
+<a href="https://cybrflux.com"><img src="./assets/cybrflux-wordmark.png" alt="CybrFlux" height="40"/></a>
+<!-- CYBRFLUX_README_FOOTER_END -->
