@@ -2,7 +2,7 @@
 <!-- CYBRFLUX_README_HEADER_START -->
 <div align="center">
 
-<img src="./assets/banner.png" alt="CybrScrape banner" width="100%"/>
+<img src="./assets/banner.jpg" alt="CybrScrape banner" width="100%"/>
 
 <br/>
 
